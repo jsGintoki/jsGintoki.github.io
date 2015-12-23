@@ -63,6 +63,19 @@ bundle exec jekyll serve 又失败，提示：
 	from /usr/bin/bundle:22:in `<main>'
 	
 	好吧，晚上继续搞吧
+	
+参考：	http://jekyllrb.com/docs/quickstart/
+
+~ $ gem install jekyll
+
+~ $ jekyll new myblog
+
+~ $ cd myblog
+
+~/myblog $ jekyll serve
+
+# => Now browse to http://localhost:4000
+
 
 
 
