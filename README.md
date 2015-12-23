@@ -1,5 +1,8 @@
 jsGintoki.github
 
+https://help.github.com/articles/using-jekyll-with-pages/
+
+
  Github jekyll 中有解决方案（http://www.tuicool.com/articles/jM367r3）
  
 
@@ -33,6 +36,33 @@ rvm install ruby 2.1.1
 
  sudo gem install jekyll
  
+ 继续执行 
+ 
+ sudo gem install github pages失败 提示need ruby>=2.2.2 OMG
+ 
+ rvm install ruby 2.2.2
+ 
+ sudo gem uninstall jekyll
+ 
+ sudo gem install github-pages
+
+ 输出：43 gems installed
+ 
+----------好像成功了,失败了多次以后，已经不相信了，继续尝试：
+
+Setting up Jekyll 几步OK，通过
+
+bundle exec jekyll serve 又失败，提示：
+
+/Library/Ruby/Site/2.0.0/rubygems/dependency.rb:296:in `to_specs': Could not find 'bundler' (>= 0.a) among 75 total gem(s) (Gem::LoadError)
+
+	from /Library/Ruby/Site/2.0.0/rubygems/dependency.rb:307:in `to_spec'
+	
+	from /Library/Ruby/Site/2.0.0/rubygems/core_ext/kernel_gem.rb:47:in `gem'
+	
+	from /usr/bin/bundle:22:in `<main>'
+	
+	好吧，晚上继续搞吧
 
 
 
