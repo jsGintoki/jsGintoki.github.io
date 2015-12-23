@@ -74,7 +74,15 @@ bundle exec jekyll serve 又失败，提示：
 
 ~/myblog $ jekyll serve
 
-# => Now browse to http://localhost:4000
+=> Now browse to http://localhost:4000
+
+下面就是开始写了：
+
+http://epiceditor.com
+
+http://dillinger.io
+
+markdown语法：http://wowubuntu.com/markdown/
 
 
 
